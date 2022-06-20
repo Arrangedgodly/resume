@@ -1,4 +1,30 @@
 .header {
   width: 80%;
-  margin: auto;
+  margin: 10vh auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.header__title {
+  font-size: 50px;
+  width: 300px;
+  text-align: center;
+  font-weight: 900;
+  margin: 5vh auto 0 0;
+}
+
+.header__title_span {
+  font-size: 80px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.header__text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 5vh 0 0 auto;
+  font-size: 30px;
 }
