@@ -1,5 +1,5 @@
 .header {
-  width: 80%;
+  width: 80vw;
   margin: 10vh auto 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
@@ -36,6 +36,7 @@
 
   .header__title {
     font-size: 7.375vw;
+    margin: auto 0 0 0;
   }
 
   .header__title_span {

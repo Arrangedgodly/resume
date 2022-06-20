@@ -2,8 +2,8 @@
   width: 15.625vw;
   height: 15.625vw;
   border-radius: 50%;
-  background-size: cover;
-  margin: auto auto 0 auto;
+  background-size: contain;
+  margin: auto 0 0 0;
 }
 
 .image_l {
