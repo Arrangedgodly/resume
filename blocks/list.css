@@ -15,29 +15,29 @@ li {
 }
 
 .list_l {
-  font-size: 30px;
+  font-size: 2.344vw;
   text-align: start;
 }
 
 .list_m {
-  font-size: 25px;
+  font-size: 1.953vw;
   font-weight: 400;
 }
 
 .list_m_alt {
-  font-size: 20px;
+  font-size: 1.5625vw;
   font-weight: 200;
   max-width: 100px;
   font-style: italic;
 }
 
 .list_sm {
-  font-size: 20px;
+  font-size: 1.5625vw;
   font-weight: 200px;
 }
 
 .list_sm_alt {
-  font-size: 18px;
+  font-size: 1.41vw;
   font-style: italic;
 }
 
@@ -53,8 +53,44 @@ li {
 }
 
 .list__icon {
-  height: 20px;
-  width: 20px;
+  height: 1.5625vw;
+  width: 1.5625vw;
   background-size: contain;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .list_l {
+    text-align: center;
+    font-size: 4.167vw;
+  }
+
+  .list_flex {
+    text-align: center;
+  }
+
+  .list__item {
+    justify-content: center;
+  }
+
+  .list_m {
+    font-size: 4vw;
+  }
+
+  .list_m_alt {
+    font-size: 3.5vw;
+  }
+
+  .list_sm {
+    font-size: 3.5vw;
+  }
+
+  .list_sm_alt {
+    font-size: 2.25vw;
+  }
+
+  .list__icon {
+    height: 2.778vw;
+    height: 2.778vw;
+  }
 }

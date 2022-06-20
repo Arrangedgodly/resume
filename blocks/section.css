@@ -1,9 +1,20 @@
 .section {
-  font-size: 35px;
+  font-size: 2.7344vw;
   font-weight: 600;
 }
 
 .section__text {
-  font-size: 20px;
+  font-size: 1.5625vw;
   text-align: end;
+}
+
+@media screen and (max-width: 720px) {
+  .section {
+    font-size: 4.86vw;
+  }
+
+  .section__text {
+    font-size: 2.778vw;
+    text-align: center;
+  }
 }

@@ -4,3 +4,9 @@
   width: 80%;
   margin: 0 auto 10vh auto;
 }
+
+@media screen and (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
