@@ -5,3 +5,9 @@
   background-size: cover;
   margin: auto;
 }
+
+.image_l {
+  width: 250px;
+  background-size: contain;
+  cursor: pointer;
+}

@@ -2,5 +2,5 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 80%;
-  margin: auto;
+  margin: 0 auto 10vh auto;
 }

@@ -1,3 +1,7 @@
+li {
+  margin: 5px;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -10,15 +14,52 @@
   text-align: center;
 }
 
+.list_projects {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 .list_l {
-  font-size: 25px;
+  font-size: 30px;
   text-align: start;
 }
 
 .list_m {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.list_m_alt {
   font-size: 20px;
+  font-weight: 200;
+  max-width: 100px;
+  font-style: italic;
 }
 
 .list_sm {
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+.list_sm_alt {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.list_sm_alt_projects {
+  max-width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.list__item {
+  display: flex;
+  align-items: flex-end;
+}
+
+.list__icon {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  margin-right: 10px;
 }
