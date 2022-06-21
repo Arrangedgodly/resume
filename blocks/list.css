@@ -26,14 +26,14 @@ li {
 
 .list_m_alt {
   font-size: 1.5625vw;
-  font-weight: 200;
+  font-weight: 400;
   max-width: 100px;
   font-style: italic;
 }
 
 .list_sm {
   font-size: 1.5625vw;
-  font-weight: 200px;
+  font-weight: 400;
 }
 
 .list_sm_alt {
@@ -74,19 +74,19 @@ li {
   }
 
   .list_m {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   .list_m_alt {
-    font-size: 3.5vw;
+    font-size: 4.75vw;
   }
 
   .list_sm {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
 
   .list_sm_alt {
-    font-size: 2.25vw;
+    font-size: 3.5vw;
   }
 
   .list__icon {
