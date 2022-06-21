@@ -14,7 +14,9 @@
 
 @media screen and (max-width: 720px) {
   .image {
-    width: 35vw;
-    height: 35vw;
+    width: 50vw;
+    height: 50vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
