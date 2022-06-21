@@ -32,6 +32,9 @@
 @media screen and (max-width: 720px) {
   .header {
     grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5vh;
   }
 
   .header__title {
@@ -46,6 +49,6 @@
 
   .header__text {
     font-size: 6vw;
-    margin: 5vh auto 5vh auto;
+    margin: 2.5vh auto 2.5vh auto;
   }
 }
