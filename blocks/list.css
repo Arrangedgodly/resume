@@ -14,6 +14,13 @@ li {
   text-align: center;
 }
 
+.list_flex_alt {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: flex-start;
+}
+
 .list_l {
   font-size: 2.344vw;
   text-align: start;
@@ -42,7 +49,7 @@ li {
 }
 
 .list_sm_alt_projects {
-  max-width: 60%;
+  max-width: 65%;
   display: block;
   margin: auto;
 }
@@ -57,6 +64,12 @@ li {
   width: 1.5625vw;
   background-size: contain;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+  .list_flex_alt {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 720px) {
