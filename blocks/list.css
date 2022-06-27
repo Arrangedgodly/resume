@@ -21,6 +21,13 @@ li {
   align-items: flex-start;
 }
 
+.list_flex_project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
 .list_l {
   font-size: 2.344vw;
   text-align: start;
@@ -41,6 +48,13 @@ li {
 .list_sm {
   font-size: 1.5625vw;
   font-weight: 400;
+}
+
+.list_project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .list_sm_alt {
@@ -80,6 +94,10 @@ li {
 
   .list_flex {
     text-align: center;
+  }
+
+  .list_flex_project {
+    flex-direction: column;
   }
 
   .list__item {

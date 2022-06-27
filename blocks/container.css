@@ -1,0 +1,10 @@
+.container_alt {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+@media screen and (max-width: 720px) {
+  .container_alt {
+    grid-column-end: 2;
+  }
+}

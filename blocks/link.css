@@ -1,5 +1,7 @@
 .link {
   text-decoration: none;
+  overflow: hidden;
+  color: #000;
 }
 
 .link:visited {
