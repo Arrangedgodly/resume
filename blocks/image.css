@@ -2,6 +2,7 @@
   width: 15.625vw;
   height: 15.625vw;
   border-radius: 50%;
+  border-color: #fff;
   background-size: contain;
   margin: auto 0 0 0;
 }
