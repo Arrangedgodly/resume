@@ -3,6 +3,10 @@
   font-weight: 600;
 }
 
+.section_alt {
+  text-align: center;
+}
+
 .section__text {
   font-size: 1.5625vw;
   text-align: end;
