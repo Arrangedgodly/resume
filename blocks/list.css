@@ -85,7 +85,8 @@ li {
 
 .list__item {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  font-size: 1.75vw;
 }
 
 .list__icon {
