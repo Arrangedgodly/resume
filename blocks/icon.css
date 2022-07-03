@@ -31,4 +31,8 @@
   .icon__arrows {
     top: -15vh;
   }
+
+  .icon_arrow {
+    transform: scale(.3);
+  }
 }
