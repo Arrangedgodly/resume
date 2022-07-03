@@ -24,5 +24,11 @@
 }
 
 .icon_right-arrow {
+  opacity: 1;
+}
 
+@media screen and (max-width: 720px) {
+  .icon__arrows {
+    top: -15vh;
+  }
 }
