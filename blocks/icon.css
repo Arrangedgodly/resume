@@ -2,3 +2,27 @@
   width: 55px;
   height: 55px;
 }
+
+.icon__arrows {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -50vh;
+}
+
+.icon_arrow {
+  border: none;
+  background-color: rgba(0,0,0,0);
+}
+
+.icon_arrow:hover {
+  color: #fff;
+}
+
+.icon_left-arrow {
+  opacity: 1;
+}
+
+.icon_right-arrow {
+
+}
