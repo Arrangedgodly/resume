@@ -9,6 +9,7 @@ function createProject(data) {
   projectALink.setAttribute("src", data.link);
   projectALink.insertAdjacentText("afterbegin", data.name);
   projectDescription.textContent = data.desc;
+  projectDescription.setAttribute("style", "text-align: center;");
   return projectElement;
 }
 
@@ -30,16 +31,17 @@ function checkArrows(num) {
   } else if (num > 0) {
     leftArrowIcon.setAttribute("style", "opacity: 1;");
   };
-  if (num === projects.length) {
+  if (num === projects.length - 1) {
     rightArrowIcon.setAttribute("style", "opacity: 0;");
-  } else if (num < projects.length) {
+  } else if (num < projects.length - 1) {
     rightArrowIcon.setAttribute("style", "opacity: 1;");
   }
 }
 
 function updateProject(num) {
   let tempProject = createProject(projects[num]);
-  projectList.replaceChildren(tempProject);
+  projectList.innerHTML = "";
+  projectList.append(tempProject);
   checkArrows(projectCount);
 }
 
