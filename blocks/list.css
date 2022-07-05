@@ -140,6 +140,10 @@ li {
     margin: 0 auto 0 auto;
   }
 
+  .list_sm_alt_projects {
+    height: 10vh;
+  }
+
   .list__icon {
     height: 2.778vw;
     height: 2.778vw;
