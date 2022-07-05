@@ -14,7 +14,8 @@
 @import url("../blocks/footer.css");
 
 html {
-  background-image: linear-gradient(#CAF0F8, #ADE8F4, #90E0EF, #48CAE4, #00B4D8, #0096C7, #0077B6, #023E8A, #03045E);
+  background-image: linear-gradient(#80FFE8, #83BCFF, #97D2FB, #ECCBD9);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /*

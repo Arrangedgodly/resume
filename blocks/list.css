@@ -78,9 +78,10 @@ li {
 }
 
 .list_sm_alt_projects {
-  max-width: 65%;
+  max-width: 70%;
   display: block;
   margin: auto;
+  height: 7vh;
 }
 
 .list__item {
