@@ -21,10 +21,14 @@
 
 .icon_left-arrow {
   opacity: 1;
+  position: relative;
+  left: -6vw;
 }
 
 .icon_right-arrow {
   opacity: 1;
+  position: relative;
+  right: -6vw;
 }
 
 @media screen and (max-width: 720px) {
