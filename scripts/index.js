@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "Vault Counter",
-    link: "https://vault.graydonwasil.com/",
+    link: "https://new-vault.graydonwasil.com/",
     desc: "An application to assist my coworkers in counting the back of house cash with ease of use and complete accuracy"
   },
   {
