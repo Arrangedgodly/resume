@@ -10,9 +10,9 @@ const projects = [
     desc: "A landing page I created for one of my good friend's musician identity"
   },
   {
-    name: "Resume Page",
-    link: "https://graydonwasil.com/",
-    desc: "This page you are on right now. Enjoy the infinite loop"
+    name: "Around the US",
+    link: "https://arrangedgodly.com/se_project_aroundtheus/",
+    desc: "A school project from Practicum. A Massive overhaul in learning intergrating JavaScript with HTML and CSS"
   },
   {
     name: "Portfolio Project",
