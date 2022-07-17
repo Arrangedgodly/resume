@@ -1,6 +1,26 @@
+.icon_new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .icon {
   width: 55px;
   height: 55px;
+}
+
+.icon__desc {
+  max-width: 75px;
+  text-align: center;
+  opacity: 0;
+  font-style: italic;
+  font-weight: 600;
+  transition: opacity .3s ease-in-out;
+  font-size: 1vw;
+}
+
+.icon_new:hover .icon__desc {
+  opacity: 1;
 }
 
 .icon__arrows {
@@ -38,5 +58,14 @@
 
   .icon_arrow {
     transform: scale(.3);
+  }
+
+  .icon {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .icon__desc {
+    font-size: 2.5vw;
   }
 }
