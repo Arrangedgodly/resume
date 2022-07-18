@@ -5,6 +5,12 @@
   transition: filter .3s ease-in-out;
 }
 
+.link-alt {
+  height: 11.25vw;
+  width: 50vw;
+  margin: 0 auto;
+}
+
 .link:hover {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(106%) contrast(106%);
   text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.3);
@@ -23,5 +29,11 @@
   }
   100% {
     transform: (0, 0);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .link-alt {
+    height: 22vw;
   }
 }

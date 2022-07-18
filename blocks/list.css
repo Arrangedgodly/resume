@@ -60,6 +60,7 @@ li {
   justify-content: center;
   text-align: center;
   width: 100%;
+  row-gap: 1vh;
 }
 
 .list_sm_alt {
@@ -79,10 +80,9 @@ li {
 }
 
 .list_sm_alt_projects {
-  max-width: 70%;
+  max-width: 50vw;
   display: block;
   margin: auto;
-  height: 7vh;
 }
 
 .list__item {
