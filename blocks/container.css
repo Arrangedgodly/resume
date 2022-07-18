@@ -1,3 +1,7 @@
+.container:hover .section {
+  animation: bounce .5s linear 1;
+}
+
 .container_alt {
   grid-column-start: 1;
   grid-column-end: 3;
