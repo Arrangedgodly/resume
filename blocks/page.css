@@ -1,3 +1,13 @@
 .page {
   font-family: 'Raleway', sans-serif;
+  animation: fadeIn 2s ease-in alternate;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -17,9 +17,9 @@
   background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: animated_text 10s ease-in-out infinite alternate;
-	-moz-animation: animated_text 10s ease-in-out infinite alternate;
-	-webkit-animation: animated_text 10s ease-in-out infinite alternate;
+	animation: animated_text 5s ease-in-out infinite alternate;
+	-moz-animation: animated_text 5s ease-in-out infinite alternate;
+	-webkit-animation: animated_text 5s ease-in-out infinite alternate;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   animation: topSlideIn 1s ease-in-out alternate;
 }
@@ -33,9 +33,9 @@
   background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: animated_text 10s ease-in-out infinite alternate;
-	-moz-animation: animated_text 10s ease-in-out infinite alternate;
-	-webkit-animation: animated_text 10s ease-in-out infinite alternate;
+	animation: animated_text 5s ease-in-out infinite alternate;
+	-moz-animation: animated_text 5s ease-in-out infinite alternate;
+	-webkit-animation: animated_text 5s ease-in-out infinite alternate;
 }
 
 .header__text {
