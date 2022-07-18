@@ -14,6 +14,7 @@
   margin: auto auto 0 0;
   background: linear-gradient(-45deg, #EC0B43, #FFAE03, #730071, #5438DC, #357DED, #540D6E);
 	background-size: 500%;
+  background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: animated_text 10s ease-in-out infinite alternate;
@@ -28,6 +29,7 @@
   font-style: italic;
   background: linear-gradient(45deg, #EC0B43, #FFAE03, #730071, #5438DC, #357DED, #540D6E);
 	background-size: 300%;
+  background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: animated_text 10s ease-in-out infinite alternate;
