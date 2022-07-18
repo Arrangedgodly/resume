@@ -21,6 +21,7 @@
 	-moz-animation: animated_text 10s ease-in-out infinite alternate;
 	-webkit-animation: animated_text 10s ease-in-out infinite alternate;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  animation: topSlideIn 1s ease-in-out alternate;
 }
 
 .header__title_span {
@@ -43,6 +44,7 @@
   align-items: flex-end;
   margin: auto 0 0 auto;
   font-size: 2.344vw;
+  animation: rightSlideIn 1s ease-in-out alternate;
 }
 
 @media screen and (max-width: 720px) {

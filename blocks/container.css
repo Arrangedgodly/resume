@@ -1,3 +1,15 @@
+.container-right {
+  animation: rightSlideIn 1s ease-in-out alternate;
+}
+
+.container-left {
+  animation: leftSlideIn 1s ease-in-out alternate;
+}
+
+.container-bottom {
+  animation: bottomSlideIn 1s ease-in-out alternate;
+}
+
 .container:hover .section {
   animation: bounce .5s linear 1;
 }

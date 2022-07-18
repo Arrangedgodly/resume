@@ -6,6 +6,7 @@
   background-size: contain;
   margin: auto 0 0 0;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  animation: leftSlideIn 1s linear alternate;
 }
 
 .image_l {
@@ -30,5 +31,41 @@
   .image_l {
     width: 100%;
     height: 90vw;
+  }
+}
+
+@keyframes leftSlideIn {
+  0% {
+    transform: translate(-400%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes rightSlideIn {
+  0% {
+    transform: translate(400%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes topSlideIn {
+  0% {
+    transform: translate(0, -400%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes bottomSlideIn {
+  0% {
+    transform: translate(0, 400%);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }
