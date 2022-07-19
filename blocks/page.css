@@ -1,6 +1,5 @@
 .page {
   font-family: 'Raleway', sans-serif;
-  animation: fadeIn 2s ease-in alternate;
 }
 
 @keyframes fadeIn {

@@ -1,17 +1,17 @@
 .container-right {
-  animation: rightSlideIn 3s linear;
+  animation: rightSlideIn 3s linear, fadeIn 5s linear;
 }
 
 .container-left {
-  animation: leftSlideIn 3s linear;
+  animation: leftSlideIn 3s linear, fadeIn 5s linear;
 }
 
 .container-bottom {
-  animation: bottomSlideIn 4s linear;
+  animation: bottomSlideIn 4s linear, fadeIn 6s linear;
 }
 
 .container:hover .section {
-  animation: bounce .5s linear 1;
+  animation: bounce 0.5s linear 1;
 }
 
 .container_alt {
