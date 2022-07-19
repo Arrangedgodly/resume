@@ -17,9 +17,9 @@
   background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: animated_text 5s ease-in-out infinite alternate, topSlideIn 1s ease-in-out alternate;
-	-moz-animation: animated_text 5s ease-in-out infinite alternate, topSlideIn 1s ease-in-out alternate;
-	-webkit-animation: animated_text 5s ease-in-out infinite alternate, topSlideIn 1s ease-in-out alternate;
+	animation: animated_text 5s ease-in-out infinite alternate, topSlideIn 1s linear;
+	-moz-animation: animated_text 5s ease-in-out infinite alternate, topSlideIn 1s linear;
+	-webkit-animation: animated_text 5s ease-in-out infinite alternate, topSlideIn 1s linear;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -43,7 +43,7 @@
   align-items: flex-end;
   margin: auto 0 0 auto;
   font-size: 2.344vw;
-  animation: rightSlideIn 1s ease-in-out alternate;
+  animation: rightSlideIn 1.5s ease-in-out alternate;
 }
 
 @media screen and (max-width: 720px) {

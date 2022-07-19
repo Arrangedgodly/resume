@@ -1,13 +1,13 @@
 .container-right {
-  animation: rightSlideIn 1s ease-in-out alternate;
+  animation: rightSlideIn 3s linear;
 }
 
 .container-left {
-  animation: leftSlideIn 1s ease-in-out alternate;
+  animation: leftSlideIn 3s linear;
 }
 
 .container-bottom {
-  animation: bottomSlideIn 1s ease-in-out alternate;
+  animation: bottomSlideIn 4s linear;
 }
 
 .container:hover .section {
