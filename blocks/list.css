@@ -120,7 +120,7 @@ li {
 
   .list__item {
     justify-content: center;
-    font-size: 4.5vw;
+    font-size: 5.5vw;
   }
 
   .list_m {
@@ -146,7 +146,7 @@ li {
   }
 
   .list__icon {
-    height: 2.778vw;
-    height: 2.778vw;
+    height: 5.5vw;
+    width: 5.5vw;
   }
 }

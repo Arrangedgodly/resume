@@ -55,13 +55,13 @@
   }
 
   .header__title {
-    font-size: 9vw;
+    font-size: 11vw;
     margin: auto auto 0 auto;
     text-align: center;
   }
 
   .header__title_span {
-    font-size: 15vw;
+    font-size: 16.5vw;
   }
 
   .header__text {

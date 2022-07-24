@@ -1,13 +1,13 @@
 .container-right {
-  animation: rightSlideIn 3s linear, fadeIn 5s linear;
+  animation: rightSlideIn 3s linear, fadeIn 4s linear;
 }
 
 .container-left {
-  animation: leftSlideIn 3s linear, fadeIn 5s linear;
+  animation: leftSlideIn 3s linear, fadeIn 4s linear;
 }
 
 .container-bottom {
-  animation: bottomSlideIn 4s linear, fadeIn 6s linear;
+  animation: bottomSlideIn 4s linear, fadeIn 5s linear;
 }
 
 .container:hover .section {

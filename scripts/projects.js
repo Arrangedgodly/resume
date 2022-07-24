@@ -6,7 +6,7 @@ function createProject(data) {
   const projectDescription = projectElement.querySelector(".list_sm_alt_projects");
   projectIframeLink.setAttribute("src", data.link);
   projectIframeLink.setAttribute("alt", data.name);
-  projectALink.setAttribute("src", data.link);
+  projectALink.setAttribute("href", data.link);
   projectALink.insertAdjacentText("afterbegin", data.name);
   projectDescription.textContent = data.desc;
   projectDescription.setAttribute("style", "text-align: center;");
